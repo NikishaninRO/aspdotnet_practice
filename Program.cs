@@ -1,26 +1,12 @@
+using weblearn.Services;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://localhost:3000");
+builder.Services.AddGrpc();
+builder.Services.AddLogging();
+
 var app = builder.Build();
 
-app.MapGet("/reset", () =>
-{
-  Latency.ResetLatency();
-  return "Application reset";
-});
-app.MapGet("/data", async () =>
-{
-  int latency = Latency.GetLatency();
-  await Task.Delay(latency);
-  return $"Application latency: {latency}";
-});
+app.MapGrpcService<GreeterService>();
+app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client...");
 
 app.Run();
-
-static class Latency
-{
-  static int counter = 1;
-  // увеличиваем счетчик
-  public static int GetLatency() => counter++ * 500;
-  // сбрасываем счетчик
-  public static void ResetLatency() => counter = 1;
-}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("weblearn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb2f11d117301b85d576ae4e4a37cd5eb5e52e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("weblearn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("weblearn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

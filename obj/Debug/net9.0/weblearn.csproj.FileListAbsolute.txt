@@ -26,3 +26,13 @@ C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\refint\weblearn.dll
 C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\weblearn.pdb
 C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\weblearn.genruntimeconfig.cache
 C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\ref\weblearn.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Grpc.Core.Api.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Grpc.Net.Client.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\bin\Debug\net9.0\Grpc.Net.Common.dll
+C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\weblearn.csproj.AssemblyReference.cache
+C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\weblearn.sourcelink.json
+C:\Users\ronin\Desktop\C#_Projects\weblearn\obj\Debug\net9.0\weblearn.csproj.Up2Date
